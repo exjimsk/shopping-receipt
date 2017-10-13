@@ -165,7 +165,7 @@ func main() {
 		w.Write(b)
 	})
 
-	port := ":8080"
+	port := fmt.Sprintf(":%v", os.Getenv("PORT"))
 
 	fmt.Println("app started on", port)
 	http.ListenAndServe(port, nil)
