@@ -12,3 +12,4 @@
 
   The UI is a simple jQuery app using flexbox layout.
 
+  Link to hosted app: https://desolate-hamlet-45006.herokuapp.com/
