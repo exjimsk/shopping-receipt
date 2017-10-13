@@ -94,9 +94,6 @@ func RoundNickel(x float64) float64 {
 
 func main() {
 
-	wd, _ := os.Getwd()
-	fmt.Println("WD is", wd)
-
 	if err := readStates(); err != nil {
 		panic(err)
 	}
