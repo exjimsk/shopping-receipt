@@ -1,0 +1,3 @@
+state,taxRate,exemptions
+CA,0.0975,food
+NY,0.08875,food;clothing
